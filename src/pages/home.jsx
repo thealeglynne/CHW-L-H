@@ -18,9 +18,9 @@ import Assessment from "../img/Ico_Assessment.png";
 import Visual from "../img/Ico_Visual.png";
 import Video from "../video/intro-chw-en.mp4"
 import Card3 from "../components/cards3"
-import ImgCard31 from "../img/card3-1.jpeg"
-import ImgCard32 from "../img/card3-2.jpeg"
-import ImgCard33 from "../img/card3-3.jpeg"
+import ImgCard31 from "../img/card31:1.png"
+import ImgCard32 from "../img/card32:1.png"
+import ImgCard33 from "../img/cardd33:1.png"
 import ImgMain5  from "../img/main5img.jpeg"
 import ImgMain7  from "../img/banner3.png"
 import Footer from "../components/footer"
@@ -137,18 +137,18 @@ function Home() {
         <h3 className="subtitleMission">At the Hub, we aim to:</h3>
         <div className="Card3-Continer">
         <Card3
-        title="Graphics"   
+        title="Facilitate"   
         imageUrl={ImgCard31}
         text="Our team is composed of CHWs/Ps who have many years of lived experiences as well as formal and informal training. Our main goal is to share best practices, relevant data and information, and useful tools and techniques to help you serve your community." 
       />
       
        <Card3
-        title="Assessmennts"   
+        title="Support"   
         imageUrl={ImgCard32}
         text="Together, we understand the challenges and rewards of working for and alongside the community, and share in your passion for empowering underserved communities. Health care agencies, donors, and the community at large- can easily search for the information they need. We've created several tools to support you on your journey." 
       />
        <Card3
-        title="Digital"   
+        title="Empower"   
         imageUrl={ImgCard33}
         text="We believe sharing knowledge is power. Our aim is to share information, activities, guides, checklists, and many other types of tools to promote cultural humility and create equity for all. Far beyond providing health care services, CHWs/Ps are advocates for change and share a commitment to the people they serve. "
       />

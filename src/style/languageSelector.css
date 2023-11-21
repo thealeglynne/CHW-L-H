@@ -2,7 +2,7 @@
 .SupportCenter{
   position: relative;
   display: inline-block;
-  top: 24px;
+  top: 27px;
 left: -100%;
 text-decoration: none;
 color: #8a8989;
@@ -33,8 +33,9 @@ transition: 1s;
 
 }
 .icoImg{
-  width: 12px;
+  width: 16px;
   padding-right: 6px;
+
 }
 .iconLanguaje {
   margin-right: 5px;

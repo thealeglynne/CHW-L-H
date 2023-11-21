@@ -12,19 +12,19 @@ z-index: 500;
 .card3 {
   
   border: none;
-  border-radius: 8px;
+  border-radius: 3px;
   padding: 20px;
   margin: 50px;
   background-color: #079a9d;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
   width: 240px;
-  height:309px;
+  height:329px;
   text-align: center;
   flex: 1;
   display: inline-block;
   position: relative;
-  top: 40px;
+  top: 0px;
   left: 0%;
   font-size: 15px;
   transform-style: preserve-3d;
@@ -53,8 +53,8 @@ transition: 1.5s;
 }
 .card3 img {
   max-width: 100%;
-  height: 80%;
-  border-radius: 8px;
+  height: 88%;
+  border-radius: 3px;
   position: relative;
   top: -20px;
   left: -20px;
@@ -63,7 +63,7 @@ transition: 1.5s;
 .card3 h2 {
 
   position: relative;
-  top: 90%;
+  top: 94%;
   font-size: 25px;
   }
 .titleC3{
@@ -72,7 +72,7 @@ transition: 1.5s;
   margin: 10px 0;
   color: #ffffff;
   position: relative;
-  top: -278px;
+  top: -318px;
   z-index: 300;
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent); 
   background-size: 200% 100%; 
@@ -80,8 +80,8 @@ transition: 1.5s;
   width:100%;
   height: 100%;
   left: -20px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   padding: 20px;
   animation: shine 4s linear infinite; 
 }

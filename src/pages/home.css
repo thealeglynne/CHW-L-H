@@ -473,7 +473,12 @@ top: -30px;
     .main3{
     width: 110%;
 
-
+    .contenedoresCard4{    
+        background-size: 1500px; 
+        height: 900px;
+        top: 100px;
+        left: 0%;
+      }
   }
   .title2{
     left: 35%;
@@ -524,6 +529,7 @@ top: -30px;
       #main6{
         top:700px;
     }
+    
 }
 @media screen and (max-width:1600px){
   
@@ -554,6 +560,12 @@ top: -30px;
       #main6{
         top:800px;
     }
+    .contenedoresCard4{    
+        background-size: 1500px; 
+        height: 900px;
+        top: 100px;
+        left: 0%;
+      }
   }
 @media screen and (max-width: 1500px) {
    
@@ -595,6 +607,12 @@ top: -30px;
         top: 100px;
         left: -3%;
       }
+      .contenedoresCard4{    
+        background-size: 1500px; 
+        height: 900px;
+        top: 100px;
+        left: -8%;
+      }
 }
 
 @media screen and (max-width: 1300px) {
@@ -625,15 +643,9 @@ top: -30px;
         left: 10px;
         transition: 1s;
       }
-      .contenedoresCard4{
-        background-image: url(../img/cardsTemporales.png);
-        background-size: 1500px;
-        width: 995%;
+      .contenedoresCard4{    
+        background-size: 1500px; 
         height: 900px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        position: relative;
         top: 100px;
         left: -8%;
       }
