@@ -47,12 +47,17 @@
     color: #ffffff;
     position: relative;
     top: -15px;
+    transition: 0.2s;
+  }
+  .card2 p:hover{
+    color: aqua;
+    transition: 0.2s;
   }
   
   .card2:hover {
     transform: scale(1.2);
     background-color: #184572;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   }
   @media screen and (max-width: 1920px) {
     .card2{

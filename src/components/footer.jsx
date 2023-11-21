@@ -1,12 +1,13 @@
 import React from 'react';
 import "../style/footer.css"; // Importa el archivo CSS que contiene los estilos
+import LogoFooter from "../img/Footer-LogoCHWLearningHUB.png"
 
 function Footer() {
   return (
     <>
       <div className="container-primary-navigation">
         <div>
-          <img src="/pix/footer/top-footer-background.svg" alt="Top Footer Background" />
+
         </div>
       </div>
 
@@ -15,7 +16,7 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col-md-2 footer-logo">
-                <img src="/images/Footer-LogoCHWLearningHUB.png" alt="Footer Logo" />
+            <img src={LogoFooter} alt="" />
               </div>
               <div className="col-md-5 border-right"></div>
               <div className="col-md-1">

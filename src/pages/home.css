@@ -197,7 +197,7 @@ transition: 1s;
     text-align: center;
     font-weight: bold;
     font-stretch: expanded;
-
+    color: #858586;
     z-index: 30;
 }
 
@@ -393,7 +393,7 @@ transition: 1s;
     top: 100px;
 }
 .backMain2{
-    width: 100%;
+    width: 98%;
     
     position: relative;
    left: -14px;
@@ -495,7 +495,13 @@ top: -30px;
     .card3{
     left: 15%;
   }
-  
+  .ImgMain7 {
+    width: 570px; 
+    position: absolute;
+    bottom: 0; 
+    transform: translateX(100%); 
+    left: 300px;
+  }
    .main3{
     width: 110%;
     left: 0%;
@@ -524,6 +530,14 @@ top: -30px;
     left: 0%;
 
   
+  }
+  .ImgMain7 {
+    width: 570px; 
+    position: absolute;
+    bottom: 0; 
+    transform: translateX(100%); 
+    left: 200px;
+    transition: 1s;
   }
    .title2{
         left: 35%;
@@ -566,6 +580,14 @@ top: -30px;
       #main6{
         top:800px;
     }
+    .ImgMain7 {
+        width: 570px; 
+        position: absolute;
+        bottom: 0; 
+        transform: translateX(100%); 
+        left: 100px;
+        transition: 1s;
+      }
 }
 @media screen and (max-width: 1300px) {
    
@@ -587,6 +609,14 @@ top: -30px;
       #main6{
         top:800px;
     }
+    .ImgMain7 {
+        width: 570px; 
+        position: absolute;
+        bottom: 0; 
+        transform: translateX(100%); 
+        left: 0px;
+        transition: 1s;
+      }
 }
 @media screen and (max-width: 1270px)   {
     #main6{

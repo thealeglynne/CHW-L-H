@@ -29,25 +29,26 @@
     text-overflow: ellipsis; /* Muestra puntos suspensivos cuando el texto se desborda */
     white-space: nowrap;
     overflow: hidden;
-    max-width: 55%;
+    max-width: 50%;
     height: 50%;
     position: relative;
    bottom: 10%;
-   background-color: aqua;
+   left: -10%;
+
   
   }
   
   .cardRSS-title {
     white-space: wrap;
     width: 80%;
-    color: gray; /* Cambia el color del título a gris */
+    color: rgb(53, 82, 202); /* Cambia el color del título a gris */
     font-size: 20px; /* Ajusta el tamaño del título según tus preferencias */
     font-weight: bold; /* Añade negrita al título si es necesario */
     margin-bottom: 10px; /* Espaciado entre el título y el texto */
   }
   .btnRSS-image{
     width: 30px;
-   color: gray;
+   color: rgb(38, 38, 102);
    letter-spacing: 3px;
  
    text-decoration: none;
@@ -56,7 +57,10 @@
    padding: 5px;
   }
   
+  .cardRSS-text{
+    color: black;
   
+  }
   
   /* Imagen superior de la tarjeta RSS */
   .cardRSS-img-top {

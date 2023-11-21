@@ -13,7 +13,9 @@
     color: white;
     background-color: #003d6a;
   }
-  
+  p{
+    color: #fff;
+  }
   .container-sm {
     padding: 0;
   }
