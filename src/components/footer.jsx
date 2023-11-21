@@ -44,17 +44,17 @@ function Footer() {
         <div className="container-sm">
           <div className="row">
             <div className="col-md-12">
-              <a href="https://www.facebook.com/profile.php?id=100086619173459">
-                <img src="https://www.chwlearninghub.org/images/Ico_hub-facebook.svg" alt="Facebook" style={{ width: '35px' }} />
+              <a href="https://www.facebook.com/profile.php?id=100086619173459" target='_blank'>
+                <img src="https://www.chwlearninghub.org/images/Ico_hub-facebook.svg"  alt="Facebook" style={{ width: '35px' }} />
               </a>
-              <a href="https://www.youtube.com/channel/UCuXMAtZHh22Rm5CvPVg8TMA">
-                <img src="https://www.chwlearninghub.org/images/Ico_hub-youtube.svg" alt="YouTube" style={{ width: '35px' }} />
+              <a href="https://www.youtube.com/channel/UCuXMAtZHh22Rm5CvPVg8TMA" target='_blank'>
+                <img src="https://www.chwlearninghub.org/images/Ico_hub-youtube.svg"  alt="YouTube" style={{ width: '35px' }} />
               </a>
-              <a href="https://www.instagram.com/chwlearninghub/">
-                <img src="https://www.chwlearninghub.org/images/Ico_hub-instagram.svg" alt="Instagram" style={{ width: '35px' }} />
+              <a href="https://www.instagram.com/chwlearninghub/" target='_blank'>
+                <img src="https://www.chwlearninghub.org/images/Ico_hub-instagram.svg"   alt="Instagram" style={{ width: '35px' }} />
               </a>
-              <a href="https://twitter.com/CHWLearningHub">
-                <img src="https://www.chwlearninghub.org/images/Ico_hub-twitter.svg" alt="Twitter" style={{ width: '35px' }} />
+              <a href="https://twitter.com/CHWLearningHub" target='_blank'>
+                <img src="https://www.chwlearninghub.org/images/Ico_hub-twitter.svg"  alt="Twitter" style={{ width: '35px' }} />
               </a>
             </div>
           </div>

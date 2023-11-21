@@ -33,9 +33,7 @@
     top: -710px;
     height:200px;
 }
-.PresentCont{
-    background-color: #FFC100;
-}
+
 .backMain{
     width: 104%;
     
@@ -131,7 +129,7 @@ transition: 1s;
 }
 
 .main3 {
-
+background-color: #FAF5ED;
     width: 104%;
     height: 1000px;
     position: relative;
@@ -151,6 +149,7 @@ transition: 1s;
     object-fit: cover;
     z-index: 210;
     pointer-events: none; 
+    background-color: #FAF5ED;
   }
   .Card3-Continer{
     max-width: 1300px;
@@ -306,12 +305,15 @@ transition: 1s;
     top: 60px;
   }
   .contenedoresCard4{
-
+    background-image: url(../img/cardsTemporales.png);
+    background-size: cover;
     width: 100%;
     height: 1000px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    position: relative;
+    top: 100px;
   }
   .banner2{
     width: 100%;
@@ -505,7 +507,7 @@ top: -30px;
    .main3{
     width: 110%;
     left: 0%;
-    background-color: #FFC100;
+    
 
   }
   .title2{
@@ -567,7 +569,7 @@ top: -30px;
       .main3{
         width: 110%;
         left: 0%;
-        background-color: #FFC100;
+      
       }
       .title2{
         left: 40%;
@@ -600,7 +602,7 @@ top: -30px;
     .main3{
         width: 110%;
         left: -5%;
-        background-color: #FFC100;
+      
       }
       .title2{
         left: 45%;
