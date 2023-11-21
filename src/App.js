@@ -8,6 +8,7 @@ import CommunityHealthEducation from "./pages/CommunityHealthEducation"
 import CoordinatorsAndSupervisors from "./pages/CoordinatorsAndSupervisors"
 import AgenciesAndOrganizations from "./pages/AgenciesAndOrganizations"
 import Error404Component from "../src/pages/404Page.js";
+import Steps from '../src/pages/StepsContainer'
 import "../src/App.css"
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         <Route path="/Error404" element={<Error404Component />} />
         <Route path="/CoordinatorsAndSupervisors" element={<CoordinatorsAndSupervisors />} />
         <Route path="/AgenciesAndOrganizations" element={<AgenciesAndOrganizations />} />
+        <Route path="/steps" element={<Steps />} />
+        
       </Routes>
     </Router>
   );
