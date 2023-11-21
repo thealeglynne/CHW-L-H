@@ -173,7 +173,7 @@ function Home() {
       <h2 className="h1cardRSS"><b>Explore what's  inside</b></h2>
       <div className="card4-container">
       <h2 className="h1cardRSSsubTitle"><b>Most Recent Post</b></h2>
-        <RssReader />
+       { /*<RssReader />*/}
       </div>
     
       </div>
