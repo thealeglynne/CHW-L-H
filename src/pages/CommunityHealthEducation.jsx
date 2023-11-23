@@ -8,6 +8,7 @@ import Header from '../components/core/Header';
 import InterestCard from '../components/shared/cards/InterestCard'
 import TopicsCard from '../components/shared/cards/TopicsCard'
 import {} from '../styles/Header.css'
+
 const CommunityHealthEducation = () => {
 
   return (
@@ -18,7 +19,7 @@ const CommunityHealthEducation = () => {
       <div className='row'>
             <div className='col-1'></div>
             <div className='col-11'>
-  <p style={{ paddingTop: '40px', fontWeight: 'bold', fontSize: '12px'}}>Home - Community Health Education</p>
+  <p className='title-route'>Home - Community Health Education</p>
   <div>
         <h1 className='title-h1-chws' style={{ paddingTop: '40px', fontWeight: 'bold'}}>Mental Health</h1>
       </div>

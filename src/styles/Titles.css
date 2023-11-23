@@ -1,0 +1,34 @@
+.title-route{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.875px;
+    color: var(--Body-Text, #666);
+}
+
+.title-h1{
+    color: #143F6A;
+    font-weight: bold;
+  }
+
+  .title-h1-chws{
+    color: #143F6A;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .title-td{
+    color: #143F6A;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .interest-text{
+    color: var(--Azul-Primario, #1A538B);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.5px; 
+  }

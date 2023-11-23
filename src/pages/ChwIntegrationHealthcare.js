@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {} from '../styles/Titles.css'
 import '../components/shared/buttons/Button'; 
 import '../components/shared/buttons/ButtonSkills'; 
 import {  } from "../styles/Profile.css";
@@ -18,12 +18,14 @@ const ChwIntegrationHealthcare = () => {
       <div className='row'>
             <div className='col-1'></div>
             <div className='col-11'>
+    <p className='title-route'>Home - CHW Integration into Healthcare</p>
+
   <div>
         <h1 className='title-h1-chws' style={{ paddingTop: '40px', fontWeight: 'bold'}}> Defining clinical teams and health care teams </h1>
 </div>
 <div className="row">
   <div className="col-sm-4">
-    <InterestCard img={'/mg-2/resume.svg'} text='Mental Health' style={{ marginRight: '10px' }} />
+    <InterestCard img={'/mg-2/resume.svg'} text='Mental Health' style={{ marginRight: '10px'}} />
   </div>
   <div className="col-sm-4">
     <InterestCard img={'/mg-2/resume.svg'} text='Mental Health' style={{ marginRight: '10px' }} />
