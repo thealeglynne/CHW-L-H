@@ -26,23 +26,6 @@ img.rounded-circle {
     margin: 10px 0; /* Ajusta el margen vertical */
   }
   
-  .title-h1{
-    color: #143F6A;
-    font-weight: bold;
-  }
-
-  .title-h1-chws{
-    color: #143F6A;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  .title-td{
-    color: #143F6A;
-    font-weight: bold;
-    font-size: 15px;
-  }
-
   .img-profile {
     position: absolute;
     left: 115px;

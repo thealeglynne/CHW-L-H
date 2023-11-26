@@ -1,5 +1,5 @@
 
-import Header from "../components/header";
+import Menu  from "../components/menu";
 import BackG1 from '../img/homebkgrn3-removebg.png';
 import BackG2 from '../img/backG2.png';
 import "./home.css";
@@ -33,13 +33,12 @@ function Home() {
   return (
     <div className="Appp">
  
- 
-      
+
       <main id="main1" className="main1">
 
-      <header className="App-header">
-       <Header />
-      </header>
+      <div className="App-header">
+       |<Menu></Menu>
+      </div>
 
 
       <h2 className="Tile1">

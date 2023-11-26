@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Import the CSS file for styling (make sure to adjust the path as needed)
-import '../style/header.css';
+import '../style/menu.css';
 
 // Import the image for the logo (adjust the path accordingly)
 import ElSol from "../img/CHWLearningHUB_Logo.png"
@@ -12,7 +12,7 @@ import ElSol from "../img/CHWLearningHUB_Logo.png"
 
   import LanguageSelector from './languageSelector';
 // Define a functional component named Header
-function Header() {
+function Menu() {
   
 
   
@@ -70,5 +70,5 @@ function Header() {
   );
 }
 
-// Export the Header component as the default export
-export default Header;
+// Export the Menu component as the default export
+export default Menu;

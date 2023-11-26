@@ -1,5 +1,4 @@
 import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import '../components/shared/buttons/Button'; 
 import '../components/shared/buttons/ButtonSkills'; 
 import {  } from "../styles/Profile.css";
@@ -7,18 +6,36 @@ import Header from '../components/core/Header';
 import InterestCard from '../components/shared/cards/InterestCard'
 import TopicsCard from '../components/shared/cards/TopicsCard'
 import {} from '../styles/Header.css'
+import {} from '../styles/Titles.css'
+import Menu from '../components/menu';
+import {  } from "../pages/home";
+import SearchBar from "../components/searchBar";
+
+
 
 const ChwsPromoter = () => {
 
   return (
     <div>
-      <div>
-        <Header/>
-      </div>
+  <main id="main1" className="main1">
+
+
+  <div style={{ width: '100%', boxSizing: 'border-box' }}>
+    <Menu></Menu>
+  </div>
+
+  <div style={{ width: '100%', boxSizing: 'border-box', zIndex: 1 }}>
+    <SearchBar></SearchBar>
+  </div>
+
+  <div style={{ width: '100%', boxSizing: 'border-box' }}>
+    <Header/> 
+  </div>
+
       <div className='row'>
             <div className='col-1'></div>
             <div className='col-11'>
-  <p style={{ paddingTop: '40px', fontWeight: 'bold', fontSize: '12px'}}>Home - CHWs / Promotores</p>
+  <p className='title-route'>Home - CHWs / Promotores</p>
   <div>
         <h1 className='title-h1-chws' style={{ paddingTop: '40px', fontWeight: 'bold'}}>CHW/Promotor Philosophy</h1>
       </div>
@@ -98,7 +115,7 @@ const ChwsPromoter = () => {
             </div>
         </div>
       
-      
+        </main>
     </div>
     
   );

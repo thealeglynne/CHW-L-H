@@ -1,12 +1,12 @@
 import React from 'react';
 import '../style/404Page.css'; 
-import Header from '../components/header';
+import Menu from '../components/menu';
 import BackG2 from "../img/backG2.png"
 import "../pages/home.css"
 const Error404 = () => {
   return (
     <div className='e404Container'>
-      <Header />
+      <Menu />
     <div className="error-container">
       
       <h1>404 - Page not found</h1>

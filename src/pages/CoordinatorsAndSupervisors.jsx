@@ -8,6 +8,8 @@ import Header from '../components/core/Header';
 import InterestCard from '../components/shared/cards/InterestCard'
 import TopicsCard from '../components/shared/cards/TopicsCard'
 import {} from '../styles/Header.css'
+import {} from '../styles/Titles.css'
+
 const CoordinatorsAndSupervisors = () => {
   return (
     <div>
@@ -17,7 +19,7 @@ const CoordinatorsAndSupervisors = () => {
       <div className='row'>
             <div className='col-1'></div>
             <div className='col-11'>
-  <p style={{ paddingTop: '40px', fontWeight: 'bold', fontSize: '12px'}}>Home - Coordinators and Supervisors</p>
+  <p className='title-route'>Home - Coordinators and Supervisors</p>
   <div>
         <h1 className='title-h1-chws' style={{ paddingTop: '40px', fontWeight: 'bold'}}>Recruitment & Interviewing </h1>
 </div>
