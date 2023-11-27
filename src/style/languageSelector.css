@@ -24,13 +24,13 @@ transition: 1s;
 .language-button {
   cursor: pointer;
   padding: 10px;
-  background-color: #FAF5ED;
+  background-color: transparent;
   border-radius: 4px;
   color: #8a8989;
   display: flex;
   align-items: center;
 
-
+z-index: 4000000;
 }
 .icoImg{
   width: 16px;
@@ -53,6 +53,7 @@ transition: 1s;
   flex-direction: column;
 z-index: 60;
 transition: 1s;
+z-index: 30000000;
 }
 
 .language-option {
@@ -67,7 +68,7 @@ transition: 1s;
 }
 
 .language-option:hover {
-  background-color: #f0f0f0;
+  background-color: transparent;
 }
 
 .language-selector:hover .language-menu {

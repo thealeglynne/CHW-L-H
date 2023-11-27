@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Import the CSS file for styling (make sure to adjust the path as needed)
-import '../style/menu.css';
+import '../style/menu2.css';
 
 // Import the image for the logo (adjust the path accordingly)
 import ElSol from "../img/CHWLearningHUB_Logo.png"
@@ -60,8 +60,6 @@ function Menu() {
           <Link to="/Error404"><li> <a href="#">FORUM</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">CONTACT</a> </li> </Link>
           <div className="botnCont">
-          <li><a href="#" id='loguinBottomm' className="login-buttonn">Log In</a></li>
-          <li><a href="#" id='singupBottomm' className="signup-buttonn">Sign Up</a></li>
           </div>
         </ul>
           
@@ -70,4 +68,5 @@ function Menu() {
   );
 }
 
+// Export the Menu component as the default export
 export default Menu;

@@ -37,7 +37,7 @@ function Home() {
       <main id="main1" className="main1">
 
       <div className="App-header">
-       |<Menu></Menu>
+       <Menu></Menu>
       </div>
 
 

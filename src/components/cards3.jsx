@@ -1,6 +1,7 @@
 import React from 'react';
 import "../style/cards3.css"
 
+
 function Card3(props) {
   const { title, text, imageUrl } = props;
 
